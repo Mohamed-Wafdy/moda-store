@@ -47,7 +47,7 @@ function Index() {
 
   return (
     <StoreShell>
-      <section className="relative aspect-[4/3] w-full overflow-hidden sm:aspect-[2/1] lg:aspect-[5/2]">
+      <section className="relative h-56 w-full overflow-hidden sm:h-72 md:h-80 lg:h-96">
         {store.hero.map((h, i) => (
           <img
             key={h.id}
