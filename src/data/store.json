@@ -1,0 +1,504 @@
+{
+  "brand": "MODA",
+  "currency": "ج.م",
+  "searchPlaceholder": "ابحث عن المنتجات...",
+  "nav": [
+    {
+      "id": "home",
+      "label": "الرئيسية"
+    },
+    {
+      "id": "all",
+      "label": "جميع المنتجات"
+    },
+    {
+      "id": "men",
+      "label": "ملابس رجالية"
+    },
+    {
+      "id": "women",
+      "label": "ملابس نسائية"
+    },
+    {
+      "id": "kids",
+      "label": "أطفال"
+    },
+    {
+      "id": "shoes",
+      "label": "أحذية"
+    },
+    {
+      "id": "accessories",
+      "label": "إكسسوارات"
+    }
+  ],
+  "hero": [
+    {
+      "id": "h1",
+      "image": "hero-1",
+      "alt": "تشكيلة أزياء رجالية"
+    },
+    {
+      "id": "h2",
+      "image": "hero-2",
+      "alt": "قميص زيتي وتيشيرت أبيض"
+    }
+  ],
+  "categories": [
+    {
+      "id": "jackets",
+      "label": "جاكيتات",
+      "image": "p-denim-jacket"
+    },
+    {
+      "id": "accessories",
+      "label": "إكسسوارات",
+      "image": "c-cap"
+    },
+    {
+      "id": "women",
+      "label": "ملابس نسائية",
+      "image": "c-dress"
+    },
+    {
+      "id": "bags",
+      "label": "حقائب",
+      "image": "c-bag"
+    },
+    {
+      "id": "men",
+      "label": "ملابس رجالية",
+      "image": "p-hoodie"
+    },
+    {
+      "id": "shoes",
+      "label": "أحذية",
+      "image": "p-sneaker-white"
+    }
+  ],
+  "bestSellersTitle": "الأكثر مبيعاً",
+  "newArrivalsTitle": "وصل حديثاً",
+  "newArrivalLabel": "جديد",
+  "deals": {
+    "title": "عروض وخصومات",
+    "discountLabel": "خصم",
+    "oldPriceLabel": "السعر قبل الخصم"
+  },
+  "services": {
+    "title": "خدمة العملاء",
+    "items": [
+      {
+        "icon": "truck",
+        "title": "شحن سريع",
+        "text": "توصيل لجميع المحافظات"
+      },
+      {
+        "icon": "return",
+        "title": "إرجاع مجاني",
+        "text": "استبدل أو أرجع المنتج بسهولة"
+      },
+      {
+        "icon": "payment",
+        "title": "دفع عند الاستلام",
+        "text": "ادفع بعد ما تستلم طلبك"
+      },
+      {
+        "icon": "support",
+        "title": "دعم يومي",
+        "text": "فريقنا متاح يومياً للرد على استفساراتك"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "آراء العملاء",
+    "items": [
+      {
+        "name": "منى أحمد",
+        "text": "الخامة أحلى من الصور بصراحة، والمقاس مضبوط. وصلني الطلب في ميعاده.",
+        "rating": 5
+      },
+      {
+        "name": "كريم حسن",
+        "text": "اشتريت جاكيت وحذاء والاتنين جودة عالية والسعر معقول جداً.",
+        "rating": 5
+      },
+      {
+        "name": "سارة محمود",
+        "text": "التعامل معاهم مريح، ردوا عليا بسرعة وساعدوني أختار المقاس المناسب.",
+        "rating": 4
+      }
+    ]
+  },
+  "productPage": {
+    "notFound": "المنتج غير موجود",
+    "backHome": "العودة للرئيسية",
+    "descriptionTitle": "وصف المنتج",
+    "relatedTitle": "منتجات مشابهة",
+    "categoryLabel": "القسم",
+    "qtyLabel": "الكمية",
+    "inStock": "متوفر",
+    "metaDescription": "تفاصيل"
+  },
+  "viewAll": "عرض الكل",
+  "pageTitleSuffix": "MODA",
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة",
+    "addToCart": "أضف للسلة",
+    "added": "تمت الإضافة للسلة",
+    "remove": "حذف",
+    "total": "الإجمالي",
+    "checkout": "إتمام الشراء",
+    "whatsappNumber": "201025532830",
+    "orderGreeting": "مرحباً، أريد إتمام هذا الطلب:",
+    "qtyLabel": "الكمية"
+  },
+  "favorites": {
+    "title": "المفضلة",
+    "empty": "لا توجد منتجات في المفضلة",
+    "add": "أضف للمفضلة",
+    "remove": "إزالة من المفضلة"
+  },
+  "search": {
+    "title": "نتائج البحث عن",
+    "noResults": "لا توجد نتائج مطابقة",
+    "suggestionsCategories": "الأقسام",
+    "suggestionsProducts": "المنتجات",
+    "seeAll": "عرض كل النتائج",
+    "metaDescription": "ابحث في منتجات MODA"
+  },
+  "categoryPage": {
+    "allLabel": "جميع المنتجات",
+    "itemsCount": "منتج",
+    "sortLabel": "ترتيب حسب",
+    "sorts": [
+      {
+        "id": "popular",
+        "label": "الأكثر تقييماً"
+      },
+      {
+        "id": "price-asc",
+        "label": "السعر: من الأقل للأعلى"
+      },
+      {
+        "id": "price-desc",
+        "label": "السعر: من الأعلى للأقل"
+      }
+    ],
+    "empty": "لا توجد منتجات في هذا القسم حالياً",
+    "notFound": "القسم غير موجود",
+    "backHome": "العودة للرئيسية",
+    "metaDescription": "تسوق تشكيلة MODA في قسم"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "هودي بيج",
+      "price": 499,
+      "oldPrice": 649,
+      "rating": 4.5,
+      "image": "p-hoodie",
+      "newArrival": false,
+      "description": "هودي قطن مبطّن من الداخل بلون بيج سادة، مناسب للإطلالة اليومية في الجو البارد.",
+      "categories": [
+        "men",
+        "jackets"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "جاكيت جينز أسود",
+      "price": 799,
+      "oldPrice": null,
+      "rating": 4.5,
+      "image": "p-denim-jacket",
+      "newArrival": false,
+      "description": "جاكيت جينز قماش متين بخياطة واضحة وجيوب أمامية، يلبس فوق التيشيرت أو البلوفر.",
+      "categories": [
+        "men",
+        "jackets"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "حذاء رياضي أبيض",
+      "price": 1299,
+      "oldPrice": 1599,
+      "rating": 4.5,
+      "image": "p-sneaker-white",
+      "newArrival": false,
+      "description": "حذاء رياضي أبيض بنعل خفيف مريح، يناسب المشي اليومي والإطلالات الكاجوال.",
+      "categories": [
+        "shoes",
+        "men"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "بلوفر صوف بيج",
+      "price": 599,
+      "oldPrice": null,
+      "rating": 5,
+      "image": "p-sweater",
+      "newArrival": false,
+      "description": "بلوفر صوف ناعم الملمس بأكمام طويلة وياقة دائرية، دافئ وخفيف في نفس الوقت.",
+      "categories": [
+        "women"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "تيشيرت أسود",
+      "price": 299,
+      "oldPrice": null,
+      "rating": 5,
+      "image": "p-tee-black",
+      "newArrival": false,
+      "description": "تيشيرت قطن سادة بياقة دائرية، أساسي في أي دولاب ويناسب كل الإطلالات.",
+      "categories": [
+        "men"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "تيشيرت أبيض",
+      "price": 379,
+      "oldPrice": null,
+      "rating": 4.5,
+      "image": "p-tee-white",
+      "newArrival": false,
+      "description": "تيشيرت أبيض قماش قطني مريح، يلبس لوحده أو تحت الجاكيت.",
+      "categories": [
+        "men"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "جاكيت زيتي",
+      "price": 799,
+      "oldPrice": null,
+      "rating": 5,
+      "image": "p-olive-jacket",
+      "newArrival": false,
+      "description": "جاكيت زيتي بقصة واسعة وأزرار أمامية، مناسب للطبقات في الخريف والشتاء.",
+      "categories": [
+        "men",
+        "jackets"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "بنطلون جينز",
+      "price": 699,
+      "oldPrice": null,
+      "rating": 4,
+      "image": "p-jeans",
+      "newArrival": false,
+      "description": "بنطلون جينز بقصة مستقيمة ولون كلاسيكي، يلبس في كل المناسبات.",
+      "categories": [
+        "women"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "بنطلون أسود",
+      "price": 599,
+      "oldPrice": null,
+      "rating": 5,
+      "image": "p-pants-black",
+      "newArrival": false,
+      "description": "بنطلون أسود بقصة أنيقة وخامة لا تتجعّد، يناسب الشغل والخروجات.",
+      "categories": [
+        "men"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "حذاء بيج",
+      "price": 1299,
+      "oldPrice": 1499,
+      "rating": 4.5,
+      "image": "p-sneaker-beige",
+      "newArrival": false,
+      "description": "حذاء كاجوال بلون بيج ونعل مرن، خفيف ومريح طول اليوم.",
+      "categories": [
+        "shoes",
+        "women"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "كاب أسود",
+      "price": 249,
+      "oldPrice": null,
+      "rating": 4.5,
+      "image": "c-cap",
+      "newArrival": false,
+      "description": "كاب قماش سادة بمقاس قابل للتعديل، يحمي من الشمس ويكمل الإطلالة الكاجوال.",
+      "categories": [
+        "accessories"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "حقيبة جلد سوداء",
+      "price": 899,
+      "oldPrice": 1099,
+      "rating": 5,
+      "image": "c-bag",
+      "newArrival": false,
+      "description": "حقيبة جلد سوداء بمساحة داخلية عملية وحمل مريح على الكتف.",
+      "categories": [
+        "accessories",
+        "bags"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "طقم أطفال تريكو وجينز",
+      "price": 549,
+      "oldPrice": null,
+      "rating": 5,
+      "image": "p-kids-set",
+      "newArrival": true,
+      "description": "طقم أطفال من بلوفر تريكو وبنطلون جينز، خامة ناعمة على جلد الطفل.",
+      "categories": [
+        "kids"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "حذاء أطفال أبيض",
+      "price": 449,
+      "oldPrice": null,
+      "rating": 4.5,
+      "image": "p-kids-shoes",
+      "newArrival": true,
+      "description": "حذاء أطفال أبيض برباط سهل ونعل غير قابل للانزلاق، مناسب للجري واللعب.",
+      "categories": [
+        "kids",
+        "shoes"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "جاكيت مطر أطفال أصفر",
+      "price": 499,
+      "oldPrice": null,
+      "rating": 4.5,
+      "image": "p-kids-jacket",
+      "newArrival": true,
+      "description": "جاكيت مطر أطفال أصفر بغطاء رأس، خفيف وسهل التنظيف ومقاوم للمطر.",
+      "categories": [
+        "kids",
+        "jackets"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "معطف صوف كاميل",
+      "price": 1499,
+      "oldPrice": 1899,
+      "rating": 5,
+      "image": "p-women-coat",
+      "newArrival": true,
+      "description": "معطف صوف بلون كاميل وقصة طويلة، أنيق ودافئ لإطلالات الشتاء الرسمية.",
+      "categories": [
+        "women",
+        "jackets"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "بوت نسائي أسود",
+      "price": 1199,
+      "oldPrice": null,
+      "rating": 4.5,
+      "image": "p-ankle-boots",
+      "newArrival": true,
+      "description": "بوت نسائي أسود رقبة قصيرة بكعب عملي، يناسب الجينز والفستان.",
+      "categories": [
+        "women",
+        "shoes"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "حقيبة توت بيج",
+      "price": 999,
+      "oldPrice": null,
+      "rating": 5,
+      "image": "p-tote-bag",
+      "newArrival": true,
+      "description": "حقيبة توت بيج بمساحة واسعة للمحمول والكتب وأشياء اليوم كلها.",
+      "categories": [
+        "women",
+        "accessories",
+        "bags"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "جاكيت جلد أسود",
+      "price": 1899,
+      "oldPrice": 2399,
+      "rating": 5,
+      "image": "p-leather-jacket",
+      "newArrival": true,
+      "description": "جاكيت جلد أسود بسحّاب أمامي وقصة كلاسيكية، يلبس سنين من غير ما يبهت.",
+      "categories": [
+        "men",
+        "jackets"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "ساعة ذهبية بسوار جلد",
+      "price": 1599,
+      "oldPrice": null,
+      "rating": 4.5,
+      "image": "p-watch",
+      "newArrival": true,
+      "description": "ساعة بعقارب ذهبية وسوار جلد بني، تناسب الإطلالة الرسمية والكاجوال.",
+      "categories": [
+        "accessories",
+        "men"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "فستان نسائي",
+      "price": 899,
+      "oldPrice": null,
+      "rating": 4.5,
+      "image": "c-dress",
+      "newArrival": true,
+      "description": "فستان نسائي بقصة مريحة وخامة ساقطة، مناسب للخروجات والمناسبات البسيطة.",
+      "categories": [
+        "women"
+      ]
+    }
+  ],
+  "bottomNav": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "favorites",
+      "label": "المفضلة",
+      "icon": "heart"
+    },
+    {
+      "id": "categories",
+      "label": "الأقسام",
+      "icon": "grid"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ]
+}
