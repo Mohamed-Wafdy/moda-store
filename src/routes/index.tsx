@@ -47,39 +47,39 @@ function Index() {
 
   return (
     <StoreShell>
-      <main className="mx-auto max-w-7xl lg:px-8">
-        <section className="relative aspect-[4/3] overflow-hidden sm:aspect-[2/1] lg:aspect-[5/2] lg:rounded-b-xl">
+      <section className="relative aspect-[4/3] w-full overflow-hidden sm:aspect-[2/1] lg:aspect-[5/2]">
+        {store.hero.map((h, i) => (
+          <img
+            key={h.id}
+            src={img(h.image)}
+            alt={h.alt}
+            width={1920}
+            height={1200}
+            className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${i === slide ? "opacity-100" : "opacity-0"}`}
+          />
+        ))}
+        <button
+          aria-label="السابق"
+          onClick={() => setSlide((s) => (s - 1 + total) % total)}
+          className="absolute right-4 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-background/80 shadow-soft backdrop-blur-sm transition-colors hover:bg-background"
+        >
+          <ChevronRight className="h-5 w-5" />
+        </button>
+        <button
+          aria-label="التالي"
+          onClick={() => setSlide((s) => (s + 1) % total)}
+          className="absolute left-4 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-background/80 shadow-soft backdrop-blur-sm transition-colors hover:bg-background"
+        >
+          <ChevronLeft className="h-5 w-5" />
+        </button>
+        <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-1.5">
           {store.hero.map((h, i) => (
-            <img
-              key={h.id}
-              src={img(h.image)}
-              alt={h.alt}
-              width={1920}
-              height={1200}
-              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${i === slide ? "opacity-100" : "opacity-0"}`}
-            />
+            <span key={h.id} className={`h-1.5 rounded-full bg-background transition-all ${i === slide ? "w-5" : "w-1.5 opacity-60"}`} />
           ))}
-          <button
-            aria-label="السابق"
-            onClick={() => setSlide((s) => (s - 1 + total) % total)}
-            className="absolute right-4 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-background shadow-soft"
-          >
-            <ChevronRight className="h-5 w-5" />
-          </button>
-          <button
-            aria-label="التالي"
-            onClick={() => setSlide((s) => (s + 1) % total)}
-            className="absolute left-4 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-background shadow-soft"
-          >
-            <ChevronLeft className="h-5 w-5" />
-          </button>
-          <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-1.5">
-            {store.hero.map((h, i) => (
-              <span key={h.id} className={`h-1.5 rounded-full bg-background transition-all ${i === slide ? "w-5" : "w-1.5 opacity-60"}`} />
-            ))}
-          </div>
-        </section>
+        </div>
+      </section>
 
+      <main className="mx-auto max-w-7xl lg:px-8">
         <section className="no-scrollbar flex gap-4 overflow-x-auto px-4 py-6 sm:justify-center sm:gap-8 lg:gap-12">
           {store.categories.map((c) => (
             <Link key={c.id} to="/category/$categoryId" params={{ categoryId: c.id }} className="flex shrink-0 flex-col items-center gap-2">
